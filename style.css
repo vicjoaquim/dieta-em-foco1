@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+  background: white;
+}
+
+input::placeholder {
+  font-size: 0.9em;
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .card {
+      width: 90% !important;
+  }
+}
